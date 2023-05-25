@@ -1,10 +1,11 @@
 import React from "react";
 
-interface ItaskProps {
-    task: string
+export interface ITaskProps {
+    task: string,
+    id?: string
 }
 
-const Task: React.FC<ItaskProps> = props => {
+const Task: React.FC<ITaskProps> = props => {
     return (
         <div className="container">
             <div className="tasks">
