@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Task from './Task/AddTaskForm';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      
+      <Task task='adilet'/>
     </div>
   );
 }

@@ -1,4 +1,16 @@
 .App {
   text-align: center;
+  margin-top: 70px;
 }
 
+.addTask {
+  margin-bottom: 20px;
+}
+
+.task-name {
+  margin-right: 300px;
+}
+
+.task {
+  margin-bottom: 10px;
+}
